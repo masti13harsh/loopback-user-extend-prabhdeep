@@ -1,0 +1,21 @@
+{
+  "name": "UserTest",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Age": {
+      "type": "number",
+      "required": true
+    },
+    "FatherName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
